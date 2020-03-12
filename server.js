@@ -36,11 +36,11 @@ app.get("/", (req, res) => {
         res.render("index", {burgers: burgers, devouredBurgers: devouredBurgers});
     })
 })
-const test = {
+// const test = {
 
-    alive: "yes"
-}
-app.get('/api/patty/test', (req, res) => res.send(test))
+//     alive: "yes"
+// }
+// app.get('/api/patty/test', (req, res) => res.send(test))
 
 app.post('/api/patty/add', (req, res) => {
     connection.query(`INSERT INTO burger (burger_name, devoured) VALUES ('${req.body.name}', '0')`, function(err, data) {
