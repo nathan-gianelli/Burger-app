@@ -2,6 +2,17 @@ const express = require("express");
 const exphbs = require("express-handlebars");
 const mysql = require("mysql")
 
+if (process.env.JAWSDB_URL) {
+    connection = mysql.createConnection(process.env.JAWSDB_URL);
+} else {
+    connection = mysql.createConnection({
+        host: 'localhost',
+        user: 'root',
+        password: '347*98Ng',
+        database: 'krustykrab_db'
+    });
+};
+
 const app = express();
 const PORT = process.env.PORT || 8080;
 // app.get('/', (req, res) => res.send('Hello World!'))
