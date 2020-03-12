@@ -3,7 +3,7 @@ const exphbs = require("express-handlebars");
 const mysql = require("mysql")
 
 const app = express();
-const PORT = 8080
+const PORT = process.env.PORT || 8080;
 // app.get('/', (req, res) => res.send('Hello World!'))
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
