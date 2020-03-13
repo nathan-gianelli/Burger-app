@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Installation](#installation)
 - [Short Description](#short-description)
-- [Link To Deplyed Site](#link-to-deployed-site)
+- [Link To Deployed Site](#link-to-deployed-site)
 - [Usage](#usage)
 - [How to use](#how-to-use)
 - [Questions](#questions)
