@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Installation](#installation)
+- [Short Description](#short-description)
 - [Link To Deplyed Site](#link-to-deployed-site)
 - [Usage](#usage)
 - [How to use](#how-to-use)
@@ -9,6 +10,9 @@
 
 ## Installation
 <code>npm i</code>
+
+## Short Description
+In this app you will be able to create a burger (POST), view the available burgers to you (GET), and devour the burger of your choosing(PUT).
 
 ## Link To Deployed Site
 https://shrouded-reaches-11040.herokuapp.com/
@@ -20,7 +24,7 @@ https://shrouded-reaches-11040.herokuapp.com/
 <code> node server.js </code>
 
 ## How To Use
-run <code> node server.js </code> in your terminal. you will be able to view the Application on localhost:3306  in the browser.
+run <code> node server.js </code> in your terminal. you will be able to view the Application on localhost:3306 in the browser.
 
 ## Questions
 Github :: nathan-gianelli - Email :: nathan.gianelli98@gmail.com
